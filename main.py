@@ -18,7 +18,7 @@ def update_word_pattern(word, pattern, letter):
                 insert1=where_found[pos]
                 pattern = pattern[:insert1] + letter + pattern[insert1+1:]
                 pos=pos+1
-            print(pattern)
+        print(pattern) #debug
 
 update_word_pattern("cricket","_____et","c")
 #run_single_game(list_words, score)
